@@ -41,7 +41,7 @@ wait for the message "**virtual channel connected**" this may take a few seconds
 
 ### Just connect to your host
 ```bash
-ssh [ip container or localhost if you port bind]
+ssh [ip container or localhost if you set port to local bind]
 ```
 
 #### for more than one port you can use ";" in the $ PORT variable
