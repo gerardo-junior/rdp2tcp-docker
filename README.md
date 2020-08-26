@@ -57,4 +57,4 @@ docker run -it --rm gerardojunior/rdp2tcp:stable bash
 
 
 ### License  
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/gerardo-junior/nodejs-docker/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/gerardo-junior/rdp2tcp-docker/blob/master/LICENSE) file for details
