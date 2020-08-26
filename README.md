@@ -1,4 +1,4 @@
-# Image docker to to execute a tcp tunnel through rdp  
+# Image docker to to execute a tcp port forwarding through rdp  
 
 ```
     [+] AUTOR:        Gerardo Junior
