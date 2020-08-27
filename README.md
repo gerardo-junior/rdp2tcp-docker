@@ -1,4 +1,4 @@
-# Image docker to to execute a tcp port forwarding through rdp  
+# Image docker to to execute a tcp tunnel through rdp  
 
 ```
     [+] AUTOR:        Gerardo Junior
@@ -32,8 +32,8 @@ docker run --rm \
            -e USERNAME="[USERNAME]" \
            -e PASSWORD="[PASSWORD]" \
            -e HOST="[HOST REMOTE]"
-           -e PORTS="22:22"
-         # -p 1000:22 # optional option for por bind of docker host
+           -e PORTS="22:22" \
+         # -p 1000:22 \ # optional option for local port binding
            gerardojunior/rdp2tcp
 ```
 
@@ -41,7 +41,7 @@ wait for the message "**virtual channel connected**" this may take a few seconds
 
 ### Just connect to your host
 ```bash
-ssh [ip container or localhost if you set port to local bind]
+ssh [ip container or localhost if you set local port binding]
 ```
 
 #### for more than one port you can use ";" in the $ PORT variable
