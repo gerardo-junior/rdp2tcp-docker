@@ -31,7 +31,7 @@ docker run --rm \
            -it \
            -e USERNAME="[USERNAME]" \
            -e PASSWORD="[PASSWORD]" \
-           -e HOST="[HOST REMOTE]"
+           -e HOST="[HOST]"
            -e PORTS="22:22" \
          # -p 1000:22 \ # optional option for local port binding
            gerardojunior/rdp2tcp
