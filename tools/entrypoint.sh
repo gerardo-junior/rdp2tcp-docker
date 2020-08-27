@@ -52,13 +52,16 @@ sleep 5;
 xdotool key --window $freerdp_window Super+Down
 
 
-
 if [ ! -z "$@" ];then
-    exec $@
-    exit
+    if [ -z "$(/usr/bin/which -- $1)" ]; then
+        /opt/rdp2tcp/rdp2tcp.py "$@"
+    else
+        exec "$@"
+    fi
+else 
+    while true;do      
+        sleep .5
+    done
 fi
 
-while true;do      
-    sleep .5
-done
 

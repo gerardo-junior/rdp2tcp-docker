@@ -51,9 +51,9 @@ EX .: -e PORTS = "22:22;3000:80"
 > [more information how it works](https://github.com/gerardo-junior/rdp2tcp)
 
 
-## How to enter in shell
+## How to execute a commad
 
-docker run -it --rm gerardojunior/rdp2tcp:stable bash
+docker run -it --rm gerardojunior/rdp2tcp:stable [bash command or params of rdp2tcp controller]
 
 
 ### License  
